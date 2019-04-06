@@ -46,10 +46,12 @@ la
 \usepackage[scheme=plain]{ctex}
 %  或
 %\usepackage{xeCJK}
-% -引入完整中文包（日期，排版等等）(记得指定hyperref选项避免中文链接的乱码)
+% -引入完整中文包（日期，排版等等）
 %\usepackage{ctex}
 % -全局中文化
-%  直接使用 ctexart 类
+%  直接使用 {ctexart} 的文档类而不是 {article} 
+%  可以指定[hyperref]选项以避免可能的中文链接乱码
+%  即在Tex开头部分使用：\documentclass[hyperref]{ctexart}
 
 
 % 我们还可以定义其他文档属性！
